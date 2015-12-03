@@ -6,7 +6,7 @@ sudo apt-get install docky -y
 # 下載 Mac 桌布，需手動選擇套用
 wget http://drive.noobslab.com/data/Mac-14.10/MBuntu-Wallpapers.zip
 mkdir ~/Wallpapers
-sudo unzip MBuntu-Wallpapers.zip -d ~/Wallpapers
+unzip MBuntu-Wallpapers.zip -d ~/Wallpapers
 
 # 安裝佈景和圖示，需使用 Ubuntu Tweak 選擇套用
 sudo add-apt-repository ppa:noobslab/themes -y

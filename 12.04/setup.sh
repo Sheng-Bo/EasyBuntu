@@ -111,10 +111,6 @@ sudo add-apt-repository ppa:ondrej/php5-5.6 -y
 sudo apt-get update
 sudo apt-get upgrade -y
 
-# 全域安裝 Composer PHP 套件管理程式
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
-
 # 安裝 MySQL
 sudo apt-get install mysql-server -y
 sudo apt-get install mysql-client -y
@@ -123,6 +119,9 @@ sudo apt-get install mysql-client -y
 sudo apt-get install phpmyadmin -y
 sudo ln -s /usr/share/phpmyadmin /var/www/html
 
+# 全域安裝 Composer PHP 套件管理程式
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
 
 
 # ============================================================
@@ -191,7 +190,5 @@ sudo apt-get install kazam -y
 # ============================================================
 # 最後清理
 # ============================================================
-
-sudo dpkg --configure -a
-sudo apt-get autoremove
-sudo fstrim -v /
+sudo apt-get upgrade -y
+sudo apt-get autoremove -y

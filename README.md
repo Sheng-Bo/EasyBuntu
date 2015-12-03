@@ -44,7 +44,7 @@
 4. 網站開發環境（後端）Apache、MySQL、PHP、composer
 5. 文書處理環境 WPS Office、字型、無蝦米輸入法、日文輸入法
 6. 平面設計 InkScape、GIMP
-7. 多媒體處理環境 VLC、Pitivi、Kazam
+7. 多媒體處理環境 VLC 影音播放、Pitivi 影音剪輯、Kazam 螢幕錄製
 
 ## beautify.sh 腳本內容
 自動下載美化套件，下載完畢後，請到 Ubuntu Tweak 調整佈景和字型的設定。建議將系統字型改用比 Ubuntu 或文泉譯更漂亮的字體，例如思源黑體 (已經在 setup.sh 中安裝了)。另外，桌布放在使用者家目錄的 Wallpapers 資料夾內。

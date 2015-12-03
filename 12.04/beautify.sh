@@ -8,6 +8,8 @@ unzip mac-fonts.zip -d ~/.fonts/mac-fonts
 sudo fc-cache -f -v
 
 # 安裝 Docky 一個類似 Mac OS 的 Dock 工具
+sudo add-apt-repository ppa:docky-core/ppa -y
+sudo apt-get update
 sudo apt-get install docky -y
 
 # 下載 Mac 桌布，需手動選擇套用

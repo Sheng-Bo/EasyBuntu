@@ -54,6 +54,9 @@ sudo apt-get update
 sudo apt-get install skype -y
 sudo apt-get -f install -y
 
+# 安裝 Filezilla
+sudo apt-get install filezilla -y
+
 
 # ============================================================
 # 網站開發環境（前端）

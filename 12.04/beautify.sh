@@ -5,8 +5,8 @@ sudo apt-get install docky -y
 
 # 下載 Mac 桌布，需手動選擇套用
 wget http://drive.noobslab.com/data/Mac-14.10/MBuntu-Wallpapers.zip
-mkdir ~/MBuntu-Wallpapers
-unzip MBuntu-Wallpapers.zip -d ~/MBuntu-Wallpapers
+mkdir ~/Wallpapers
+sudo unzip MBuntu-Wallpapers.zip -d ~/Wallpapers
 
 # 安裝佈景和圖示，需使用 Ubuntu Tweak 選擇套用
 sudo add-apt-repository ppa:noobslab/themes -y
@@ -36,5 +36,3 @@ mkdir ~/.fonts
 mkdir ~/.fonts/mac-fonts
 unzip mac-fonts.zip -d ~/.fonts/mac-fonts
 sudo fc-cache -f -v
-
-# 建議在 Ubuntu Tweak 內將系統字型改用比 Ubuntu 或文泉譯更漂亮的字體，例如思源黑體 (已經在 setup.sh 中安裝了)。

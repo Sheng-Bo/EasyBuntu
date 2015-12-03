@@ -95,6 +95,9 @@ apm install atom-beautify
 apm install atom-alignment
 apm install activate-power-mode
 
+# 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
+curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
+sudo dpkg -i google-webdesigner_current_amd64.deb
 
 # ============================================================
 # 網站開發環境（後端）Apache、MySQL、PHP
@@ -163,9 +166,7 @@ sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
 sudo apt-get update
 sudo apt-get install gimp -y
 
-# 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
-curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
-sudo dpkg -i google-webdesigner_current_amd64.deb
+
 
 
 
@@ -173,11 +174,12 @@ sudo dpkg -i google-webdesigner_current_amd64.deb
 # 多媒體處理環境
 # ============================================================
 
-# 安裝 Pitivi 類似 iMovie 或 Movie Maker 影片輯工具
-sudo apt-get install pitivi -y
 
 # 安裝 VLC 影片播放器
 sudo apt-get install vlc -y
+
+# 安裝 Pitivi 類似 iMovie 或 Movie Maker 影片輯工具
+sudo apt-get install pitivi -y
 
 # 安裝 Kazam 桌面錄製程式
 sudo add-apt-repository ppa:kazam-team/stable-series -y

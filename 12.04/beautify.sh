@@ -1,19 +1,14 @@
+#!/bin/bash
 
-# 安裝 Docky
-# sudo add-apt-repository ppa:docky-core/ppa -y
-# sudo apt-get update
+# 安裝 Docky 一個類似 Mac OS 的 Dock 工具
 sudo apt-get install docky -y
 
-# sudo add-apt-repository ppa:noobslab/themes -y
-# sudo apt-get update
-# sudo apt-get install mbuntu-y-docky-skins-v4 -y
-
-# 安裝桌布
+# 下載 Mac 桌布，需手動選擇套用
 wget http://drive.noobslab.com/data/Mac-14.10/MBuntu-Wallpapers.zip
 mkdir ~/MBuntu-Wallpapers
 unzip MBuntu-Wallpapers.zip -d ~/MBuntu-Wallpapers
 
-# 佈景和圖示
+# 安裝佈景和圖示，需使用 Ubuntu Tweak 選擇套用
 sudo add-apt-repository ppa:noobslab/themes -y
 sudo apt-get update
 sudo apt-get install mac-os-lion-icons-v2 -y
@@ -23,21 +18,23 @@ sudo add-apt-repository ppa:numix/ppa -y
 sudo apt-get update -y
 sudo apt-get install numix-icon-theme numix-icon-theme-circle -y
 
-#Spotlight
+# 安裝類似 Mac 右上角放大鏡的工具
 sudo add-apt-repository ppa:noobslab/apps -y
 sudo apt-get update
 sudo apt-get install indicator-synapse -y
 
-# mouse
+# 安裝仿 Mac 滑鼠游標
 wget -O mac-cursors.zip http://drive.noobslab.com/data/themes/mac/mac-cursors.zip
 sudo unzip mac-cursors.zip -d /usr/share/icons/; rm mac-cursors.zip
 cd /usr/share/icons/mac-cursors
 sudo chmod +x install-mac-cursors.sh uninstall-mac-cursors.sh
 sudo ./install-mac-cursors.sh
 
-#fonts
+# 安裝部分 Mac 字型
 wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac-14.10/macfonts.zip
 mkdir ~/.fonts
 mkdir ~/.fonts/mac-fonts
 unzip mac-fonts.zip -d ~/.fonts/mac-fonts
 sudo fc-cache -f -v
+
+# 建議在 Ubuntu Tweak 內將系統字型改用比 Ubuntu 或文泉譯更漂亮的字體，例如思源黑體 (已經在 setup.sh 中安裝了)。

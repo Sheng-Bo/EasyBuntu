@@ -6,8 +6,9 @@
 2. 自動下載美化桌面工具，經過簡單的佈景主題設定，使得 Linux 大量脫去工程味。
 
 ## 結果展示
-<img src="12.04/screenshot.png" width="50%">
-
+<img src="12.04/screenshot/01.png" width="50%">
+<img src="12.04/screenshot/02.png" width="50%">
+<img src="12.04/screenshot/03.png" width="50%">
 --------------------------------------------------------------------------------
 
 ## 前言

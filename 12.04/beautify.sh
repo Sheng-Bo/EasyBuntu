@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# 安裝部分 Mac 字型
+wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac-14.10/macfonts.zip
+mkdir ~/.fonts
+mkdir ~/.fonts/mac-fonts
+unzip mac-fonts.zip -d ~/.fonts/mac-fonts
+sudo fc-cache -f -v
+
 # 安裝 Docky 一個類似 Mac OS 的 Dock 工具
 sudo apt-get install docky -y
 
@@ -29,10 +36,3 @@ sudo unzip mac-cursors.zip -d /usr/share/icons/; rm mac-cursors.zip
 cd /usr/share/icons/mac-cursors
 sudo chmod +x install-mac-cursors.sh uninstall-mac-cursors.sh
 sudo ./install-mac-cursors.sh
-
-# 安裝部分 Mac 字型
-wget -O mac-fonts.zip http://drive.noobslab.com/data/Mac-14.10/macfonts.zip
-mkdir ~/.fonts
-mkdir ~/.fonts/mac-fonts
-unzip mac-fonts.zip -d ~/.fonts/mac-fonts
-sudo fc-cache -f -v

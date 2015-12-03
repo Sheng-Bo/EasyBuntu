@@ -94,6 +94,7 @@ apm install git-control
 apm install atom-beautify
 apm install atom-alignment
 apm install activate-power-mode
+apm install terminal-panel
 
 # 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
 curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb

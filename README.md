@@ -11,7 +11,7 @@
 
 <img src="12.04/screenshot/01.png" width="70%">
 
-### Line & Skeyp
+### Line & Skype
 
 <img src="12.04/screenshot/02.png" width="70%">
 

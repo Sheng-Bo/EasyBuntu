@@ -37,6 +37,7 @@
 
 ## setup.sh 腳本內容
 自動安裝各種可能用得到的套件，詳細請閱讀腳本內說明，對於不想安裝的套件，也可以打上 # 號註解。
+
 1. 系統初始設定
 2. 網路應用
 3. 網站開發環境（前端）Git & Git-cola、Ruby、Node.js、Gulp、Atom 中文化與常用套件、Google Web Designer

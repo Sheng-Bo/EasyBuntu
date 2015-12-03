@@ -17,6 +17,9 @@
 ## 授權：GPL v3
 歡迎大家一起加入 folk 的行列，也歡迎大家糾錯發 issue 給我。
 
+## 結果展示
+![alt text](12.04/screenshot.png)
+
 
 -----
 ## setup.sh 腳本內容
@@ -30,11 +33,9 @@
 1. 平面設計 InkScape、GIMP
 1. 多媒體處理環境 VLC、Pitivi、Kazam
 
-## beautify.sh 腳本內容：
+## beautify.sh 腳本內容
 
 自動下載美化套件，下載完畢後，請到 Ubuntu Tweak 調整佈景和字型的設定。建議將系統字型改用比 Ubuntu 或文泉譯更漂亮的字體，例如思源黑體 (已經在 setup.sh 中安裝了)。另外，桌布放在使用者家目錄的 Wallpapers 資料夾內。
-
-
 
 
 

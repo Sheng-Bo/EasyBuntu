@@ -34,7 +34,7 @@ sudo apt-get install gparted -y
 sudo apt-get install font-manager -y
 
 # 安裝 Webmin
-# sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
+# sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python -y
 # curl -O -L http://prdownloads.sourceforge.net/webadmin/webmin_1.770_all.deb
 # sudo dpkg -i webmin_1.770_all.deb
 # sudo apt-get -f install -y

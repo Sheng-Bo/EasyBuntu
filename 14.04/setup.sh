@@ -34,10 +34,11 @@ sudo apt-get install gparted -y
 sudo apt-get install font-manager -y
 
 # 安裝 Webmin
-sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
+sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python -y
 curl -O -L http://prdownloads.sourceforge.net/webadmin/webmin_1.770_all.deb
 sudo dpkg -i webmin_1.770_all.deb
 sudo apt-get -f install -y
+
 
 
 # ============================================================
@@ -56,3 +57,12 @@ sudo apt-get -f install -y
 
 # 安裝 Filezilla
 sudo apt-get install filezilla -y
+
+
+
+# ============================================================
+# 網站開發環境（前端）
+# ============================================================
+
+# 安裝 Git
+sudo apt-get install git -y

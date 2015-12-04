@@ -48,7 +48,6 @@ sudo apt-get install font-manager -y
 # 安裝 Google Chrome 瀏覽器
 curl -O -L https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt-get -f install -y
 
 # 安裝 Skype
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner" -y
@@ -83,10 +82,7 @@ sudo gem install compass
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install nodejs -y
 sudo apt-get install npm -y
-
-# 更新 npm
 sudo npm install -g npm
-ln -s /usr/bin/nodejs /usr/bin/node
 
 # 安裝 Gulp 工作管理器
 sudo npm install gulp -g
@@ -106,7 +102,17 @@ sudo apt-get update
 sudo apt-get install atom -y
 
 # 安裝 Atom 繁體中文化 & 常用套件
-apm stars --install -u Sheng-Bo
+apm install cht-menu
+apm install minimap
+apm install color-picker
+apm install pigments
+apm install highlight-selected
+apm install git-history
+apm install git-control
+apm install atom-beautify
+apm install atom-alignment
+apm install activate-power-mode
+apm install terminal-panel
 
 # 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
 curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
@@ -115,8 +121,35 @@ sudo dpkg -i google-webdesigner_current_amd64.deb
 
 
 # ============================================================
+# 網站開發環境（後端）Apache、MySQL、PHP
+# ============================================================
+
+# 安裝 PHP 5.6
+# 請注意，此處用外部套件來源是因為 Ubuntu 12.04 的 PHP 比較舊，無法滿足
+# 現今 Laravel 5.1 框架的系統需求。
+sudo add-apt-repository ppa:ondrej/php5-5.6 -y
+sudo apt-get update
+sudo apt-get install php5-cli -y
+
+# 安裝 MySQL
+sudo apt-get install mysql-server -y
+sudo apt-get install mysql-client -y
+
+# 安裝 phpmyadmin
+sudo apt-get install phpmyadmin -y
+sudo ln -s /usr/share/phpmyadmin /var/www/html
+
+# 全域安裝 Composer PHP 套件管理程式
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
+
+# ============================================================
 # 文書處理環境
 # ============================================================
+
+# 安裝微軟字型
+sudo apt-get install ttf-mscorefonts-installer -y
 
 # 安裝思源黑體繁體中文
 curl -O -L https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKtc-hinted.zip
@@ -155,6 +188,8 @@ sudo apt-get install gimp -y
 
 
 
+
+
 # ============================================================
 # 多媒體處理環境
 # ============================================================
@@ -171,33 +206,6 @@ sudo add-apt-repository ppa:kazam-team/stable-series -y
 sudo apt-get update
 sudo apt-get install kazam -y
 
-
-
-# ============================================================
-# 網站開發環境（後端）Apache、MySQL、PHP
-# ============================================================
-
-# 安裝 PHP 5.6
-# 請注意，此處用外部套件來源是因為 Ubuntu 12.04 的 PHP 比較舊，無法滿足
-# 現今 Laravel 5.1 框架的系統需求。
-sudo add-apt-repository ppa:ondrej/php5-5.6 -y
-sudo apt-get update
-sudo apt-get install php5-cli -y
-
-# 安裝 MySQL
-sudo apt-get install mysql-server -y
-sudo apt-get install mysql-client -y
-
-# 安裝 phpmyadmin
-sudo apt-get install phpmyadmin -y
-sudo ln -s /usr/share/phpmyadmin /var/www/html
-
-# 全域安裝 Composer PHP 套件管理程式
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
-
-# 安裝微軟字型
-sudo apt-get install ttf-mscorefonts-installer -y
 
 # ============================================================
 # 最後清理

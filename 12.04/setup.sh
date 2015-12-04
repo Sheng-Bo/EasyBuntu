@@ -108,18 +108,6 @@ sudo apt-get install atom -y
 # 安裝 Atom 繁體中文化 & 常用套件
 apm stars --install -u Sheng-Bo
 
-# apm install cht-menu
-# apm install minimap
-# apm install color-picker
-# apm install pigments
-# apm install highlight-selected
-# apm install git-history
-# apm install git-control
-# apm install atom-beautify
-# apm install atom-alignment
-# apm install activate-power-mode
-# apm install terminal-panel
-
 # 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
 curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
 sudo dpkg -i google-webdesigner_current_amd64.deb

@@ -80,7 +80,8 @@ sudo gem install compass
 
 # 安裝 Node.js 0.12 並更新 npm
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-sudo apt-get install -y nodejs
+sudo apt-get install nodejs -y
+sudo apt-get install npm -y 
 sudo npm install -g npm
 
 # 安裝 Gulp 工作管理器

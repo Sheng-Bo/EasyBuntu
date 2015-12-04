@@ -81,7 +81,7 @@ sudo gem install compass
 # 安裝 Node.js 0.12 並更新 npm
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install nodejs -y
-sudo apt-get install npm -y 
+sudo apt-get install npm -y
 sudo npm install -g npm
 
 # 安裝 Gulp 工作管理器
@@ -129,7 +129,7 @@ sudo dpkg -i google-webdesigner_current_amd64.deb
 # 現今 Laravel 5.1 框架的系統需求。
 sudo add-apt-repository ppa:ondrej/php5-5.6 -y
 sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt-get install php5-cli -y
 
 # 安裝 MySQL
 sudo apt-get install mysql-server -y

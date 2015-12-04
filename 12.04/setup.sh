@@ -40,6 +40,7 @@ sudo apt-get install font-manager -y
 # sudo apt-get -f install -y
 
 
+
 # ============================================================
 # 網路應用
 # ============================================================
@@ -56,6 +57,7 @@ sudo apt-get -f install -y
 
 # 安裝 Filezilla
 sudo apt-get install filezilla -y
+
 
 
 # ============================================================
@@ -114,6 +116,8 @@ apm install terminal-panel
 # 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
 curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb
 sudo dpkg -i google-webdesigner_current_amd64.deb
+
+
 
 # ============================================================
 # 網站開發環境（後端）Apache、MySQL、PHP

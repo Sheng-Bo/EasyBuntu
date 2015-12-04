@@ -76,13 +76,10 @@ sudo apt-get install ruby1.9.1-dev -y
 sudo gem install sass
 sudo gem install compass
 
-# 安裝 Node.js
-# sudo add-apt-repository ppa:chris-lea/node.js -y
-# sudo apt-get update
-# sudo apt-get install nodejs -y
-
+# 安裝 Node.js 0.12 並更新 npm
 curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 sudo apt-get install -y nodejs
+sudo npm install -g npm
 
 # 安裝 Gulp 工作管理器
 sudo npm install gulp -g

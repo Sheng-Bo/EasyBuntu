@@ -41,7 +41,7 @@
 
 1. 系統初始設定
 2. 網路應用
-3. 網站開發環境（前端）Git & Git-cola、Ruby、Node.js、Gulp、Atom 中文化與常用套件、Google Web Designer
+3. 網站開發環境（前端）Git & Git-cola、Ruby、Sass、Compass、Node.js、Gulp、Grunt、Bower、Yeoman、Atom 中文化與常用套件、Google Web Designer
 4. 網站開發環境（後端）Apache、MySQL、PHP、composer
 5. 文書處理環境 WPS Office、字型、無蝦米輸入法、日文輸入法
 6. 平面設計 InkScape、GIMP

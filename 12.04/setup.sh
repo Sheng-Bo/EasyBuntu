@@ -71,7 +71,10 @@ sudo apt-get update
 sudo apt-get install git-cola -y
 
 # 安裝 Ruby
-sudo apt-get install ruby rubygems -y
+sudo apt-get install ruby1.9.1 -y
+sudo apt-get install ruby1.9.1-dev -y
+sudo gem install sass
+sudo gem install compass
 
 # 安裝 Node.js
 sudo add-apt-repository ppa:chris-lea/node.js -y

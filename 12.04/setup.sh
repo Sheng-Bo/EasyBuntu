@@ -128,9 +128,6 @@ sudo dpkg -i google-webdesigner_current_amd64.deb
 # 文書處理環境
 # ============================================================
 
-# 安裝微軟字型
-sudo apt-get install ttf-mscorefonts-installer -y
-
 # 安裝思源黑體繁體中文
 curl -O -L https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKtc-hinted.zip
 mkdir -p ~/.fonts/
@@ -209,6 +206,8 @@ sudo ln -s /usr/share/phpmyadmin /var/www/html
 curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
+# 安裝微軟字型
+sudo apt-get install ttf-mscorefonts-installer -y
 
 # ============================================================
 # 最後清理

@@ -77,12 +77,24 @@ sudo gem install sass
 sudo gem install compass
 
 # 安裝 Node.js
-sudo add-apt-repository ppa:chris-lea/node.js -y
-sudo apt-get update
-sudo apt-get install nodejs -y
+# sudo add-apt-repository ppa:chris-lea/node.js -y
+# sudo apt-get update
+# sudo apt-get install nodejs -y
+
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+sudo apt-get install -y nodejs
 
 # 安裝 Gulp 工作管理器
 sudo npm install gulp -g
+
+# 安裝 Grunt 工作管理器
+sudo npm install grunt-cli -g
+
+# 安裝 Bower 套件管理器
+sudo npm install bower -g
+
+# 安裝 Yoeman 套件管理器
+sudo npm install yo -g
 
 # 安裝 Atom 編輯器
 sudo add-apt-repository ppa:webupd8team/atom -y

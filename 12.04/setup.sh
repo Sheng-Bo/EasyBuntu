@@ -156,6 +156,8 @@ sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
 sudo apt-get update
 sudo apt-get install gimp -y
 
+# 安裝 Gthumb 一個類似 ACDSee 的看圖軟體
+sudo apt-get install gthumb -y
 
 
 # ============================================================

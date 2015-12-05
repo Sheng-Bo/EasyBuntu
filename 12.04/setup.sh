@@ -48,6 +48,7 @@ sudo apt-get install font-manager -y
 # 安裝 Google Chrome 瀏覽器
 curl -O -L https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt-get -f install -y
 
 # 安裝 Skype
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner" -y

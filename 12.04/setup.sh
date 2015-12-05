@@ -74,21 +74,17 @@ sudo apt-get install git -y
 # sudo apt-get install git-cola -y
 
 # 安裝 Ruby
-# sudo apt-get install ruby1.9.1 -y
-# sudo apt-get install ruby1.9.1-dev -y
-# sudo gem install sass
-# sudo gem install compass
-
 sudo apt-get install software-properties-common -y
 sudo apt-add-repository ppa:brightbox/ruby-ng -y
 sudo apt-get update -y
 sudo apt-get install ruby2.2 -y
 sudo apt-get install ruby2.2-dev -y
 
-# 安裝 Node.js 0.12 並更新 npm
-# curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-# sudo apt-get install nodejs -y
-# sudo apt-get install npm -y
+# 安裝 Sass CSS 預處理器
+sudo gem install sass
+
+# 安裝 Compass Sass 的框架
+sudo gem install compass
 
 # 安裝 Node.js 4 並更新 npm
 wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -

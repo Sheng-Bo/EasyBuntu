@@ -85,9 +85,13 @@ sudo apt-get install ruby2.2 -y
 sudo apt-get install ruby2.2-dev -y
 
 # 安裝 Node.js 0.12 並更新 npm
-curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
-sudo apt-get install nodejs -y
-sudo apt-get install npm -y
+# curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
+# sudo apt-get install nodejs -y
+# sudo apt-get install npm -y
+
+# 安裝 Node.js 4 並更新 npm
+wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
+sudo apt-get install --yes nodejs
 sudo npm install -g npm
 
 # 安裝 Gulp 工作管理器
@@ -108,17 +112,7 @@ sudo apt-get update
 sudo apt-get install atom -y
 
 # 安裝 Atom 繁體中文化 & 常用套件
-apm install cht-menu
-apm install minimap
-apm install color-picker
-apm install pigments
-apm install highlight-selected
-apm install git-history
-apm install git-control
-apm install atom-beautify
-apm install atom-alignment
-apm install activate-power-mode
-apm install terminal-panel
+apm stars --install -u Sheng-Bo
 
 # 安裝 Google Web Designer HTML5 CSS3 動畫製作軟體 64 位元版
 curl -O -L https://dl.google.com/linux/direct/google-webdesigner_current_amd64.deb

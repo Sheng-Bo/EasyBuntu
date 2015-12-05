@@ -68,9 +68,9 @@ sudo apt-get install filezilla -y
 sudo apt-get install git -y
 
 # 安裝 Git 圖形化操作介面 Git-cola
-sudo add-apt-repository ppa:winski/git-cola -y
-sudo apt-get update
-sudo apt-get install git-cola -y
+# sudo add-apt-repository ppa:winski/git-cola -y
+# sudo apt-get update
+# sudo apt-get install git-cola -y
 
 # 安裝 Ruby
 sudo apt-get install ruby1.9.1 -y
@@ -121,30 +121,6 @@ sudo dpkg -i google-webdesigner_current_amd64.deb
 
 
 # ============================================================
-# 網站開發環境（後端）Apache、MySQL、PHP
-# ============================================================
-
-# 安裝 PHP 5.6
-# 請注意，此處用外部套件來源是因為 Ubuntu 12.04 的 PHP 比較舊，無法滿足
-# 現今 Laravel 5.1 框架的系統需求。
-sudo add-apt-repository ppa:ondrej/php5-5.6 -y
-sudo apt-get update
-sudo apt-get install php5-cli -y
-
-# 安裝 MySQL
-sudo apt-get install mysql-server -y
-sudo apt-get install mysql-client -y
-
-# 安裝 phpmyadmin
-sudo apt-get install phpmyadmin -y
-sudo ln -s /usr/share/phpmyadmin /var/www/html
-
-# 全域安裝 Composer PHP 套件管理程式
-curl -sS https://getcomposer.org/installer | php
-sudo mv composer.phar /usr/local/bin/composer
-
-
-# ============================================================
 # 文書處理環境
 # ============================================================
 
@@ -188,8 +164,6 @@ sudo apt-get install gimp -y
 
 
 
-
-
 # ============================================================
 # 多媒體處理環境
 # ============================================================
@@ -205,6 +179,32 @@ sudo apt-get install pitivi -y
 sudo add-apt-repository ppa:kazam-team/stable-series -y
 sudo apt-get update
 sudo apt-get install kazam -y
+
+
+
+# ============================================================
+# 網站開發環境（後端）Apache、MySQL、PHP
+# ============================================================
+
+# 安裝 PHP 5.6
+# 請注意，此處用外部套件來源是因為 Ubuntu 12.04 的 PHP 比較舊，無法滿足
+# 現今 Laravel 5.1 框架的系統需求。
+sudo add-apt-repository ppa:ondrej/php5-5.6 -y
+sudo apt-get update
+sudo apt-get install php5-cli -y
+
+# 安裝 MySQL
+sudo apt-get install mysql-server -y
+sudo apt-get install mysql-client -y
+
+# 安裝 phpmyadmin
+sudo apt-get install phpmyadmin -y
+sudo ln -s /usr/share/phpmyadmin /var/www/html
+
+# 全域安裝 Composer PHP 套件管理程式
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+
 
 
 # ============================================================

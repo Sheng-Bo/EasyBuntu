@@ -88,7 +88,7 @@ sudo gem install compass
 
 # 安裝 Node.js 4 並更新 npm
 wget -qO- https://deb.nodesource.com/setup_4.x | sudo bash -
-sudo apt-get install --yes nodejs
+sudo apt-get install nodejs -y 
 sudo npm install -g npm
 
 # 安裝 Gulp 工作管理器

@@ -104,9 +104,8 @@ sudo npm install bower -g
 sudo npm install yo -g
 
 # 安裝 Atom 編輯器
-sudo add-apt-repository ppa:webupd8team/atom -y
-sudo apt-get update
-sudo apt-get install atom -y
+curl -O -L https://atom-installer.github.com/v1.3.2/atom-amd64.deb
+sudo dpkg -i atom-amd64.deb
 
 # 安裝 Atom 繁體中文化 & 常用套件
 apm stars --install -u Sheng-Bo

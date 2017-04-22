@@ -24,6 +24,11 @@ sudo apt-get install unity-tweak-tool -y
 # 安裝字型管理員
 sudo apt-get install font-manager -y
 
+# MKUSB
+sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
+sudo apt-get update
+sudo apt-get install mkusb mkusb-nox usb-pack-efi
+
 
 # ============================================================
 # 網路應用
@@ -105,7 +110,7 @@ sudo apt-get install lyx -y
 
 # Mendeley
 curl -O -L https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
-sudo dpkg -i wps-office_9.1.0.4975~a19p1_amd64.deb
+sudo dpkg -i mendeleydesktop_1.17.9-stable_amd64.deb
 
 # ============================================================
 # 平面設計

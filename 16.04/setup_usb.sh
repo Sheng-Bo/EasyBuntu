@@ -131,6 +131,9 @@ sudo apt-get install vlc -y
 # 安裝 Pitivi 類似 iMovie 或 Movie Maker 影片輯工具
 sudo apt-get install pitivi -y
 
+sudo apt-get install kdenlive -y
+
+
 # 安裝 Kazam 桌面錄製程式
 sudo apt-get install kazam -y
 

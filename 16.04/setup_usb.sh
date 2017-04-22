@@ -112,9 +112,13 @@ sudo dpkg -i wps-office_9.1.0.4975~a19p1_amd64.deb
 # ============================================================
 
 # 安裝 Inkscape 向量圖形編輯軟體
+sudo add-apt-repository "deb http://ppa.launchpad.net/inkscape.dev/stable/ubuntu precise main" -y
+sudo apt-get update
 sudo apt-get install inkscape -y
 
 # 安裝 GIMP 點陣圖形編輯軟體
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
+sudo apt-get update
 sudo apt-get install gimp -y
 
 # 安裝 Gthumb 一個類似 ACDSee 的看圖軟體

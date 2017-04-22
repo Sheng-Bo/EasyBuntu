@@ -116,6 +116,8 @@ sudo dpkg -i mendeleydesktop_1.17.9-stable_amd64.deb
 sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
 sudo apt-get update
 sudo apt install adobereader-enu
+sudo add-apt-repository -r "deb http://archive.canonical.com/ precise partner"
+
 
 # ============================================================
 # 平面設計

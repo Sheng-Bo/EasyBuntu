@@ -103,6 +103,9 @@ sudo add-apt-repository ppa:lyx-devel/release
 sudo apt-get update
 sudo apt-get install lyx -y
 
+# Mendeley
+curl -O -L https://www.mendeley.com/repositories/ubuntu/stable/amd64/mendeleydesktop-latest
+sudo dpkg -i wps-office_9.1.0.4975~a19p1_amd64.deb
 
 # ============================================================
 # 平面設計

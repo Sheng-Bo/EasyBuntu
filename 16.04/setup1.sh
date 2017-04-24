@@ -25,7 +25,7 @@ sudo apt-get install unity-tweak-tool -y
 sudo apt-get install font-manager -y
 
 # MKUSB
-sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
+sudo add-apt-repository ppa:mkusb/ppa -y # and press Enter
 sudo apt-get update
 sudo apt-get install mkusb mkusb-nox usb-pack-efi
 
@@ -34,7 +34,7 @@ sudo apt-get install mkusb mkusb-nox usb-pack-efi
 # ============================================================
 
 # 安裝 Google Chrome 瀏覽器
-sudo apt-get install chromium -y
+sudo apt-get install chromium-browser -y
 
 # 安裝 Filezilla
 sudo apt-get install filezilla -y
@@ -71,7 +71,7 @@ sudo apt-get install texlive-bibtex-extra -y
 sudo texhash
 
 # Lyx
-sudo add-apt-repository ppa:lyx-devel/release
+sudo add-apt-repository ppa:lyx-devel/release -y
 sudo apt-get update
 sudo apt-get install lyx -y
 

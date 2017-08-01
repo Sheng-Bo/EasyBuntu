@@ -68,6 +68,11 @@ sudo apt-get install texlive-fonts-recommended texlive-fonts-extra -y
 #sudo apt-get install biblatex biblatex-dw
 sudo apt-get install texlive-publishers -y
 sudo apt-get install texlive-bibtex-extra -y
+sudo apt-get install texlive-lang-chinese -y
+sudo apt-get install texlive-lang-english -y
+sudo apt-get install texlive-luatex -y
+sudo apt-get install texlive-xetex -y
+
 sudo texhash
 
 # Lyx

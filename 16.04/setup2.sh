@@ -22,8 +22,13 @@ wget http://download.virtualbox.org/virtualbox/5.1.26/virtualbox-5.1_5.1.26-1172
 sudo dpkg -i virtualbox-5.1_5.1.26-117224~Ubuntu~xenial_amd64.deb
 sudo apt install -f
 
+wget https://az764295.vo.msecnd.net/stable/cb82febafda0c8c199b9201ad274e25d9a76874e/code_1.14.2-1500506907_amd64.deb
+sudo dpkg -i code_1.14.2-1500506907_amd64.deb
+sudo apt install -f
 
-
+wget https://edgehill.s3-us-west-2.amazonaws.com/2.0.32-fec7941/linux-deb/x64/NylasMail.deb
+sudo dpkg -i NylasMail.deb
+sudo apt install -f
 
 wget https://az412801.vo.msecnd.net/vhd/VMBuild_20141027/VirtualBox/IE11/Windows/IE11.Win7.For.Windows.VirtualBox.zip
 unzip IE11.Win7.For.Windows.VirtualBox.zip

@@ -14,6 +14,14 @@ sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/dell-xps
 
 sudo apt install r-base
 
+#Rstudio
+
+# Java 8
+sudo add-apt-repository ppa:webupd8team/java 
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+
 
 # ============================================================
 # 網路應用

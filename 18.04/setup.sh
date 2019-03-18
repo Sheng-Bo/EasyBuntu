@@ -8,6 +8,8 @@ sudo apt update
 # 安裝 Curl 下載工具
 sudo apt-get install curl -y
 
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/JackHack96/dell-xps-9570-ubuntu-respin/master/xps-tweaks.sh)"
+
 
 
 sudo apt install r-base
